@@ -1,0 +1,7 @@
+order_id,order_item_id,product_id,seller_id,shipping_limit_date,price,freight_value
+D,1,prod-tv,seller-1,2018-01-20 10:00:00,200.00,20.00
+D,2,prod-tv,seller-1,2018-01-20 10:00:00,100.00,10.00
+E,1,prod-bola,seller-1,2018-01-20 10:00:00,80.00,8.00
+F,1,prod-tv,seller-1,2018-01-20 10:00:00,120.00,15.00
+G,1,prod-tv,seller-1,2018-01-20 10:00:00,500.00,30.00
+H,1,prod-sem-cat,seller-1,2018-01-20 10:00:00,40.00,5.00

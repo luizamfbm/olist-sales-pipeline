@@ -1,0 +1,5 @@
+ run status   started                sec     read  rejected  inserted  updated  unchanged  error
+   1 success  2026-11-25 13:53:05   11.3   448369         0    448369        0          0  
+   2 success  2026-11-25 13:53:19    5.3   448369         0         0        0     448369  
+   3 failed   2026-11-25 13:53:27    2.3        0         0         0        0          0  MissingFileError: olist_order_payments_dataset.csv not found
+   4 success  2026-11-25 13:53:29    5.2   448369         0         0        0     448369  

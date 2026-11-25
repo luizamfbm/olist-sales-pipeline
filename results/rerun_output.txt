@@ -1,0 +1,26 @@
+
+Run 2: SUCCESS
+file                                     read   dup  rejected  inserted  updated  unchanged
+-------------------------------------------------------------------------------------------
+olist_customers_dataset.csv             99441     0         0         0        0      99441
+olist_products_dataset.csv              32951     0         0         0        0      32951
+olist_orders_dataset.csv                99441     0         0         0        0      99441
+olist_order_items_dataset.csv          112650     0         0         0        0     112650
+olist_order_payments_dataset.csv       103886     0         0         0        0     103886
+
+Data quality findings:
+  products_without_category                     610
+  orders_without_items                          775
+  delivered_orders_without_items                  0
+  orders_without_payments                         1
+  zero_value_payments                             9
+  payment_type_not_defined                        3
+  payments_with_zero_installments                 2
+  delivered_orders_without_delivery_date          8
+  items_with_zero_freight                       383
+  products_missing_dimensions                     2
+
+Results written to results/
+  q1_sales_by_month_state.csv: 556 rows
+  q2_top10_categories_by_month.csv: 212 rows
+  q3_payment_reconciliation.csv: 1076 rows

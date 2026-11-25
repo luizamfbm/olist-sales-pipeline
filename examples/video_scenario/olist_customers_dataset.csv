@@ -1,0 +1,5 @@
+customer_id,customer_unique_id,customer_zip_code_prefix,customer_city,customer_state
+cust-rj-1,u-cust-rj-1,01310,sao paulo,RJ
+cust-rj-2,u-cust-rj-2,01310,sao paulo,RJ
+cust-mg-1,u-cust-mg-1,01310,sao paulo,MG
+cust-mg-2,u-cust-mg-2,01310,sao paulo,MG

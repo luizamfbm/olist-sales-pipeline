@@ -1,0 +1,8 @@
+# Olist CSVs are downloaded by each user (see data/README.md)
+data/*.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.DS_Store
